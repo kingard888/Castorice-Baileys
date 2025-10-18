@@ -1,131 +1,116 @@
-# 🚀 WhatsApp Web API
-
 <div align="center">
 
-![WhatsApp API Banner](https://camo.githubusercontent.com/8c1cc888a216088f8515ca5eb0dc7131bb190d6059af8d02c4616e39b6639114/68747470733a2f2f69696c692e696f2f325a706a746c702e6a7067)
+# 🚀 WhatsApp Web API - Baileys
 
-[![npm version](https://img.shields.io/npm/v/@owensdev1/baileys?style=for-the-badge&color=00d26a&logo=npm&logoColor=white)](https://www.npmjs.com/package/@owensdev1/baileys)
-[![Downloads](https://img.shields.io/npm/dm/@owensdev1/baileys?style=for-the-badge&color=4285f4&logo=download&logoColor=white)](https://www.npmjs.com/package/@owensdev1/baileys)
-[![GitHub stars](https://img.shields.io/github/stars/owensdev1/baileys?style=for-the-badge&color=ffb400&logo=github&logoColor=white)](https://github.com/owensdev1/baileys/stargazers)
-[![License](https://img.shields.io/badge/License-GPL%20v3-e74c3c?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/gpl-3.0)
+![WhatsApp Web API](https://img.shields.io/badge/WhatsApp%20Web%20API-Baileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=websocket&logoColor=white)
 
-**A powerful WebSockets-based TypeScript library for interacting with the WhatsApp Web API**
+<br>
 
-[📖 Documentation](#-table-of-contents) • [🚀 Quick Start](#-quick-start) • [💬 Support](#-support) • [🤝 Contributing](#-contributing)
+[![npm version](https://img.shields.io/npm/v/@owensdev1/baileys?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/@owensdev1/baileys)
+[![npm downloads](https://img.shields.io/npm/dm/@owensdev1/baileys?style=flat-square&color=00d26a)](https://www.npmjs.com/package/@owensdev1/baileys)
+[![GitHub stars](https://img.shields.io/github/stars/owensdev1/baileys?style=flat-square&color=FFB400&logo=github)](https://github.com/owensdev1/baileys)
+[![GitHub license](https://img.shields.io/github/license/owensdev1/baileys?style=flat-square&color=e74c3c)](LICENSE)
+
+<br>
+
+> **⚡ A powerful WebSocket-based TypeScript library untuk WhatsApp Web API**
+
+[📖 Dokumentasi](#-dokumentasi) · [🚀 Quick Start](#-quick-start) · [💬 Support](#-support) · [🤝 Kontribusi](#-kontribusi)
 
 </div>
 
 ---
 
-## ⚠️ Important Disclaimer
-
-> [!WARNING]
-> This project is **not affiliated** with WhatsApp Inc. Use responsibly and comply with WhatsApp's Terms of Service. 
-> 
-> **We strongly discourage:**
-> - Spam messaging
-> - Bulk messaging
-> - Stalkerware usage
-> - Any automated abuse
-
----
-
-## ✨ Features
-
-<div align="center">
+## ✨ Fitur Unggulan
 
 <table>
 <tr>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 🔐 Multi-Device
-**Connect as secondary device**
+**Sinkronisasi Sempurna**
 
-Advanced multi-device support with seamless synchronization across platforms
+Dukungan multi-device dengan sinkronisasi mulus di semua platform
 
 </td>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 📱 QR & Pairing
-**Multiple connection methods**
+**Fleksibel Koneksi**
 
-Support for both QR code scanning and pairing code authentication
+Support QR code scanning & pairing code authentication
 
 </td>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 🎨 Rich Messages
-**Buttons, polls, media, etc.**
+**Interaktif Penuh**
 
-Interactive messages with buttons, polls, location sharing, and media attachments
+Buttons, polls, location, media attachments & custom messages
 
 </td>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 🔄 Real-time Events
-**Live message updates**
+**WebSocket Live**
 
-WebSocket-based real-time messaging with instant delivery notifications
+Real-time messaging dengan instant delivery notifications
 
 </td>
 </tr>
 <tr>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 👥 Group Management
-**Full admin capabilities**
+**Admin Lengkap**
 
-Complete group administration including member management and settings control
+Full group administration & member management capabilities
 
 </td>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 🔒 Privacy Controls
-**Block, privacy settings**
+**Keamanan Data**
 
-Comprehensive privacy management and user blocking functionality
+Block users, privacy settings, comprehensive security management
 
 </td>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 📊 Message History
-**Fetch chat history**
+**Chat History Access**
 
-Access and manage complete conversation history with powerful search capabilities
+Fetch & manage chat history dengan powerful search capabilities
 
 </td>
-<td align="center" width="200px">
+<td align="center" width="25%">
 
 ### 🎯 Custom Functions
-**Extensible architecture**
+**Highly Extensible**
 
-Highly customizable with plugin support and custom event handlers
+Plugin support & custom event handlers untuk kebutuhan custom
 
 </td>
 </tr>
 </table>
 
-</div>
-
 ---
 
 ## 🚀 Quick Start
 
-### 📦 Installation
-
-<div align="center">
+### 📦 Instalasi
 
 ```bash
-# 📦 Using npm (stable version) **not available**
-npm install @owensdev1/baileys
-
-# 🧶 Using yarn (edge version)
+# 🧶 Menggunakan Yarn (recommended)
 yarn add @owensdev1/baileys
+
+# 📦 Menggunakan NPM
+npm install @owensdev1/baileys
 ```
 
-</div>
-
-### 🔌 Basic Usage
+### 🔌 Koneksi Dasar
 
 ```javascript
 const { default: makeWASocket, DisconnectReason, useMultiFileAuthState } = require("@owensdev1/baileys");
@@ -139,28 +124,33 @@ async function connectToWhatsApp() {
         printQRInTerminal: true
     });
 
+    // 🔗 Connection Events
     sock.ev.on('connection.update', (update) => {
         const { connection, lastDisconnect } = update;
         
         if(connection === 'close') {
             const shouldReconnect = (lastDisconnect.error as Boom)?.output?.statusCode !== DisconnectReason.loggedOut;
-            console.log('Connection closed, reconnecting...', shouldReconnect);
+            console.log('❌ Koneksi ditutup. Reconnect:', shouldReconnect);
             
             if(shouldReconnect) {
                 connectToWhatsApp();
             }
         } else if(connection === 'open') {
-            console.log('✅ Connected to WhatsApp!');
+            console.log('✅ Berhasil terhubung ke WhatsApp!');
         }
     });
 
+    // 📨 Message Events
     sock.ev.on('messages.upsert', async (m) => {
-        console.log('📩 New message:', JSON.stringify(m, undefined, 2));
-        
-        // Echo received messages
         const msg = m.messages[0];
+        
         if (!msg.key.fromMe && msg.message) {
-            await sock.sendMessage(msg.key.remoteJid, { text: 'Hello! 👋' });
+            console.log('📩 Pesan baru:', JSON.stringify(m, undefined, 2));
+            
+            // 🤖 Echo response
+            await sock.sendMessage(msg.key.remoteJid, { 
+                text: 'Hello! Terima kasih pesanmu 👋' 
+            });
         }
     });
 
@@ -172,115 +162,51 @@ connectToWhatsApp();
 
 ---
 
-<div align="center">
+## 📖 Dokumentasi
 
-## 📚 Table of Contents
+### 🔌 Setup & Koneksi
 
-<table>
-<tr>
-<td align="center" width="33%">
-
-### 🏗️ Setup & Connection
-- [🔌 Connecting Account](#connecting-account)
-- [📱 QR Code Connection](#starting-socket-with-qr-code)
-- [🔢 Pairing Code Connection](#starting-socket-with-pairing-code)
-- [📜 Receive Full History](#receive-full-history)
-- [⚙️ Socket Configuration](#important-notes-about-socket-config)
-- [💾 Save Auth Info](#saving--restoring-sessions)
-
-</td>
-<td align="center" width="33%">
-
-### 📨 Messaging
-- [📤 Sending Messages](#sending-messages)
-- [📝 Text Messages](#text-message)
-- [🔘 Button Messages](#buttons-message)
-- [🎯 Interactive Messages](#interactive-message)
-- [📋 Poll Messages](#poll-message)
-- [📍 Location Messages](#location-message)
-- [👤 Contact Messages](#contact-message)
-- [🎬 Media Messages](#media-messages)
-- [✏️ Modify Messages](#modify-messages)
-
-</td>
-<td align="center" width="33%">
-
-### 🔧 Advanced Features
-- [👥 Groups Management](#groups)
-- [🔒 Privacy Settings](#privacy)
-- [📢 Broadcast & Stories](#broadcast-lists--stories)
-- [📊 Data Store Implementation](#implementing-a-data-store)
-- [🎯 Custom Functionality](#writing-custom-functionality)
-- [🐛 Debug Mode](#enabling-debug-level-in-baileys-logs)
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🔌 Connecting Account
-
-### 📱 Starting socket with **QR-CODE**
-
-<div align="center">
-
-> [!TIP]
-> **Pro Tip:** Customize browser name using the `Browser` constant. See [available browsers](https://baileys.whiskeysockets.io/types/BrowsersMap.html).
-
-</div>
+#### 📱 QR Code Connection
 
 ```javascript
 const { default: makeWASocket, Browsers } = require("@owensdev1/baileys");
 
 const sock = makeWASocket({
-    browser: Browsers.ubuntu('My App'),
+    browser: Browsers.ubuntu('My Awesome Bot'),
     printQRInTerminal: true
 });
 ```
 
-### 🔢 Starting socket with **Pairing Code**
+> **💡 Tip:** Customize browser name menggunakan `Browsers` constant untuk pengalaman lebih personal.
 
-<div align="center">
+#### 🔢 Pairing Code Connection
 
 > [!IMPORTANT]
-> **Pairing Code connects WhatsApp Web without QR-CODE.**  
-> Phone number format: country code + number (no +, (), or -)
-
-</div>
+> **Pairing Code** memungkinkan koneksi WhatsApp Web **TANPA QR Code!**  
+> Format nomor: country code + number (tanpa +, (), atau -)
 
 ```javascript
 const sock = makeWASocket({
-    printQRInTerminal: false // Must be false for pairing code
+    printQRInTerminal: false // WAJIB false untuk pairing code
 });
 
-// Standard pairing
+// Standard Pairing
 if (!sock.authState.creds.registered) {
-    const number = '1234567890'; // Your phone number
+    const number = '1234567890'; // Nomor WhatsApp
     const code = await sock.requestPairingCode(number);
     console.log('🔑 Pairing Code:', code);
 }
 
-// Custom pairing (8 digits/letters)
+// Custom Pairing (8 digit/karakter)
 if (!sock.authState.creds.registered) {
-    const customPair = "12345678";
+    const customPair = "BAILEYS01";
     const number = '1234567890';
     const code = await sock.requestPairingCode(number, customPair);
-    console.log('🔑 Custom Pairing Code:', code);
+    console.log('🔑 Custom Code:', code);
 }
 ```
 
----
-
-## 💾 Saving & Restoring Sessions
-
-<div align="center">
-
-**🎯 Never scan QR codes again! Save your session:**
-
-</div>
+#### 💾 Simpan & Restore Sesi
 
 ```javascript
 const { useMultiFileAuthState } = require("@owensdev1/baileys");
@@ -289,75 +215,40 @@ const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys');
 
 const sock = makeWASocket({ auth: state });
 
-// Auto-save credentials when they update
+// 🔄 Auto-save credentials saat update
 sock.ev.on('creds.update', saveCreds);
 ```
 
-<div align="center">
-
 > [!WARNING]
-> **Critical:** Always save auth keys when they update (`authState.keys.set()` is called) to ensure message delivery!
-
-</div>
+> **KRITIS:** Selalu simpan auth keys saat update untuk memastikan message delivery yang stabil!
 
 ---
 
-## 📤 Sending Messages
+### 📨 Pengiriman Pesan
 
-<div align="center">
+#### 📝 Text Message
 
-### 🎨 Message Types Gallery
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-**📝 Text**
-Simple text messages
-
-</td>
-<td align="center" width="25%">
-
-**🔘 Buttons**
-Interactive buttons
-
-</td>
-<td align="center" width="25%">
-
-**📋 Polls**
-Survey & voting
-
-</td>
-<td align="center" width="25%">
-
-**🎬 Media**
-Images, videos, audio
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 📝 Text Message
 ```javascript
-await sock.sendMessage(jid, { text: 'Hello World! 🌍' });
+await sock.sendMessage(jid, { 
+    text: 'Hello World! 🌍' 
+});
 ```
 
-### 🔘 Button Message
+#### 🔘 Button Message
+
 ```javascript
 await sock.sendMessage(jid, {
-    text: "Choose an option:",
-    footer: "© 2025 Your Bot",
+    text: "Silakan pilih opsi di bawah:",
+    footer: "© 2025 Baileys Bot",
     buttons: [
         {
             buttonId: 'btn1',
-            buttonText: { displayText: '✅ Option 1' },
+            buttonText: { displayText: '✅ Opsi 1' },
             type: 1
         },
         {
             buttonId: 'btn2',
-            buttonText: { displayText: '❌ Option 2' },
+            buttonText: { displayText: '❌ Opsi 2' },
             type: 1
         }
     ],
@@ -365,34 +256,35 @@ await sock.sendMessage(jid, {
 });
 ```
 
-### 🎯 Interactive Message with Flow
+#### 🎯 Interactive Menu dengan Flow
+
 ```javascript
 await sock.sendMessage(jid, {
-    text: "Interactive Menu",
+    text: "📋 Menu Interaktif",
     footer: "© 2025 Bot",
     buttons: [
         {
             buttonId: 'menu',
-            buttonText: { displayText: '📋 Show Menu' },
+            buttonText: { displayText: '📋 Tampilkan Menu' },
             type: 4,
             nativeFlowInfo: {
                 name: 'single_select',
                 paramsJson: JSON.stringify({
-                    title: 'Select Option',
+                    title: 'Pilih Opsi',
                     sections: [{
-                        title: 'Available Options',
+                        title: 'Opsi Tersedia',
                         highlight_label: '⭐',
                         rows: [
                             {
-                                header: 'OPTION 1',
-                                title: 'First Choice',
-                                description: 'Description for option 1',
+                                header: 'OPSI 1',
+                                title: 'Pilihan Pertama',
+                                description: 'Deskripsi untuk opsi 1',
                                 id: 'opt1'
                             },
                             {
-                                header: 'OPTION 2', 
-                                title: 'Second Choice',
-                                description: 'Description for option 2',
+                                header: 'OPSI 2', 
+                                title: 'Pilihan Kedua',
+                                description: 'Deskripsi untuk opsi 2',
                                 id: 'opt2'
                             }
                         ]
@@ -404,100 +296,142 @@ await sock.sendMessage(jid, {
 });
 ```
 
-### 📋 Poll Message
+#### 📋 Poll/Vote Message
+
 ```javascript
 await sock.sendMessage(jid, {
     poll: {
-        name: 'What\'s your favorite color? 🎨',
-        values: ['🔴 Red', '🔵 Blue', '🟢 Green', '🟡 Yellow'],
+        name: 'Warna favorit Anda? 🎨',
+        values: ['🔴 Merah', '🔵 Biru', '🟢 Hijau', '🟡 Kuning'],
         selectableCount: 1
     }
 });
 ```
 
-<div align="center">
+#### 🎬 Media Messages
 
-### 🎬 Media Messages
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-**🖼️ Images**
-JPG, PNG, WebP support
-
-</td>
-<td align="center" width="33%">
-
-**🎥 Videos**
-MP4, AVI with captions
-
-</td>
-<td align="center" width="33%">
-
-**🎵 Audio**
-Voice notes & music
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 🖼️ Image Message
+**🖼️ Image:**
 ```javascript
 await sock.sendMessage(jid, {
-    image: { url: './path/to/image.jpg' },
-    caption: 'Beautiful image! 📸'
+    image: { url: './image.jpg' },
+    caption: '📸 Gambar yang indah!'
 });
 ```
 
-### 🎥 Video Message
+**🎥 Video:**
 ```javascript
 await sock.sendMessage(jid, {
-    video: { url: './path/to/video.mp4' },
-    caption: 'Check this out! 🎬',
-    ptv: false // Set to true for video note
+    video: { url: './video.mp4' },
+    caption: '🎬 Video keren!',
+    ptv: false
 });
 ```
 
-### 🎵 Audio Message
+**🎵 Audio:**
 ```javascript
 await sock.sendMessage(jid, {
-    audio: { url: './path/to/audio.mp3' },
+    audio: { url: './audio.mp3' },
     mimetype: 'audio/mp4'
 });
 ```
 
 ---
 
-## 📊 Implementing a Data Store
+### 👥 Manajemen Grup
 
-<div align="center">
+#### 🆕 Buat Grup
 
-> [!IMPORTANT]
-> **Production Ready:** Build your own data store for production. The in-memory store is just for testing!
+```javascript
+const group = await sock.groupCreate('🎉 Grup Keren', [
+    '1234567890@s.whatsapp.net',
+    '0987654321@s.whatsapp.net'
+]);
 
-</div>
+console.log('✅ Grup dibuat:', group.id);
+await sock.sendMessage(group.id, { text: '👋 Selamat datang!' });
+```
+
+#### 👤 Add/Remove Members
+
+```javascript
+await sock.groupParticipantsUpdate(
+    groupJid,
+    ['1234567890@s.whatsapp.net'],
+    'add'  // 'remove', 'promote', 'demote'
+);
+```
+
+#### ⚙️ Ubah Setting Grup
+
+```javascript
+// 📝 Ubah nama
+await sock.groupUpdateSubject(groupJid, '🚀 Nama Baru');
+
+// 📋 Ubah deskripsi
+await sock.groupUpdateDescription(groupJid, '📝 Deskripsi baru');
+
+// 🔒 Hanya admin kirim pesan
+await sock.groupSettingUpdate(groupJid, 'announcement');
+
+// ✅ Semua orang kirim pesan
+await sock.groupSettingUpdate(groupJid, 'not_announcement');
+```
+
+---
+
+### 🔒 Privacy Controls
+
+#### 🚫 Block/Unblock Users
+
+```javascript
+// 🔴 Block
+await sock.updateBlockStatus(jid, 'block');
+
+// 🟢 Unblock  
+await sock.updateBlockStatus(jid, 'unblock');
+```
+
+#### ⚙️ Privacy Settings
+
+```javascript
+// 👁️ Last Seen Privacy
+await sock.updateLastSeenPrivacy('contacts');  // 'all', 'contacts', 'none'
+
+// 🌐 Online Status
+await sock.updateOnlinePrivacy('all');  // 'all', 'match_last_seen'
+
+// 📸 Profile Picture
+await sock.updateProfilePicturePrivacy('contacts');
+
+// 📹 Status Privacy
+await sock.updateStatusPrivacy('contacts');
+
+// ✓ Read Receipts
+await sock.updateReadReceiptsPrivacy('all');  // 'all', 'none'
+```
+
+---
+
+### 📊 Data Store Implementation
 
 ```javascript
 const { makeInMemoryStore } = require("@owensdev1/baileys");
 
 const store = makeInMemoryStore({});
 
-// Load from file
+// 📂 Load dari file
 store.readFromFile('./baileys_store.json');
 
-// Auto-save every 10 seconds
+// 💾 Auto-save setiap 10 detik
 setInterval(() => {
     store.writeToFile('./baileys_store.json');
 }, 10_000);
 
-// Bind to socket
+// 🔗 Bind ke socket
 const sock = makeWASocket({});
 store.bind(sock.ev);
 
-// Access stored data
+// 📖 Akses data
 sock.ev.on('chats.upsert', () => {
     console.log('💬 Chats:', store.chats.all());
 });
@@ -505,230 +439,62 @@ sock.ev.on('chats.upsert', () => {
 
 ---
 
-## 👥 Groups
-
-<div align="center">
-
-### 🎯 Group Management Features
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-**🆕 Create**  
-New groups
-
-</td>
-<td align="center" width="25%">
-
-**👤 Members**  
-Add/Remove users
-
-</td>
-<td align="center" width="25%">
-
-**⚙️ Settings**  
-Name, description
-
-</td>
-<td align="center" width="25%">
-
-**🛡️ Admin**  
-Promote/Demote
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 🆕 Create a Group
-```javascript
-const group = await sock.groupCreate('🎉 My Awesome Group', [
-    '1234567890@s.whatsapp.net',
-    '0987654321@s.whatsapp.net'
-]);
-
-console.log('✅ Group created:', group.id);
-await sock.sendMessage(group.id, { text: 'Welcome everyone! 👋' });
-```
-
-### 👤 Add/Remove Participants
-```javascript
-await sock.groupParticipantsUpdate(
-    groupJid,
-    ['1234567890@s.whatsapp.net'],
-    'add' // 'remove', 'promote', 'demote'
-);
-```
-
-### ⚙️ Change Group Settings
-```javascript
-// Update group name
-await sock.groupUpdateSubject(groupJid, '🚀 New Group Name');
-
-// Update description
-await sock.groupUpdateDescription(groupJid, '📝 New group description');
-
-// Admin-only messages
-await sock.groupSettingUpdate(groupJid, 'announcement');
-
-// Everyone can send messages
-await sock.groupSettingUpdate(groupJid, 'not_announcement');
-```
-
----
-
-## 🔒 Privacy
-
-<div align="center">
-
-### 🛡️ Privacy Controls
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-**🚫 Block Management**  
-Block/Unblock users
-
-</td>
-<td align="center" width="50%">
-
-**⚙️ Privacy Settings**  
-Visibility controls
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 🚫 Block/Unblock Users
-```javascript
-// Block user
-await sock.updateBlockStatus(jid, 'block');
-
-// Unblock user  
-await sock.updateBlockStatus(jid, 'unblock');
-```
-
-### ⚙️ Privacy Settings
-```javascript
-// Update various privacy settings
-await sock.updateLastSeenPrivacy('contacts'); // 'all', 'contacts', 'none'
-await sock.updateOnlinePrivacy('all'); // 'all', 'match_last_seen'
-await sock.updateProfilePicturePrivacy('contacts');
-await sock.updateStatusPrivacy('contacts');
-await sock.updateReadReceiptsPrivacy('all'); // 'all', 'none'
-```
-
----
-
-## 🐛 Debugging
-
-<div align="center">
-
-**🔍 Enable debug mode to see all WhatsApp communications:**
-
-</div>
+### 🐛 Debug Mode
 
 ```javascript
 const sock = makeWASocket({
-    logger: P({ level: 'debug' }),
+    logger: P({ level: 'debug' })
 });
-```
 
-### 🎯 Custom Event Handlers
-```javascript
-// Listen for specific WebSocket events
+// 📡 Custom WebSocket Events
 sock.ws.on('CB:edge_routing', (node) => {
-    console.log('📡 Edge routing message:', node);
+    console.log('📡 Edge routing:', node);
 });
 
-// Listen with specific attributes
+// 🎯 Specific listeners
 sock.ws.on('CB:edge_routing,id:abcd', (node) => {
-    console.log('🎯 Specific edge routing message:', node);
+    console.log('🎯 Message:', node);
 });
 ```
 
 ---
-
-<div align="center">
 
 ## 💬 Support
 
-### 🆘 Need Help?
+<div align="center">
 
-<table>
-<tr>
-<td align="center" width="33%">
-
-### 📞 Direct Contact
-**6285358977442**  
-WhatsApp Support
-
-</td>
-<td align="center" width="33%">
-
-### 💬 Community
-**WhatsApp Group**  
-Join our community
-
-</td>
-<td align="center" width="33%">
-
-### 🐛 Bug Reports
-**GitHub Issues**  
-[Report Issues](https://github.com/owensdev1/baileys/issues)
-
-</td>
-</tr>
-</table>
+| 📞 Support | 💬 Komunitas | 🐛 Issues |
+|:---:|:---:|:---:|
+| **WhatsApp Direct** | **WhatsApp Group** | **GitHub Issues** |
+| [Chat: 6285358977442](https://wa.me/6285358977442) | [Join Group](https://chat.whatsapp.com) | [Report Bug](https://github.com/owensdev1/baileys/issues) |
 
 </div>
 
 ---
 
-## 🤝 Contributing
+## 🤝 Kontribusi
 
-<div align="center">
+Kami sangat menghargai setiap kontribusi! 🙌
 
-**We welcome contributions! Here's how you can help:**
+### Cara Berkontribusi:
 
-</div>
-
-<div align="center">
-
-```mermaid
-graph LR
-    A[🍴 Fork] --> B[🌟 Branch] 
-    B --> C[💻 Code] 
-    C --> D[📤 Push] 
-    D --> E[🔄 PR]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
+```
+🍴 Fork → 🌟 Branch → 💻 Code → 📤 Push → 🔄 Pull Request
 ```
 
-</div>
-
-1. **🍴 Fork** the repository
-2. **🌟 Create** your feature branch (`git checkout -b feature/AmazingFeature`)
-3. **💻 Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **📤 Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **🔄 Open** a Pull Request
+1. **Fork** repository ini
+2. **Buat branch** fitur (`git checkout -b feature/AmazingFeature`)
+3. **Commit** perubahan (`git commit -m 'Add AmazingFeature'`)
+4. **Push** ke branch (`git push origin feature/AmazingFeature`)
+5. **Buka Pull Request**
 
 ---
 
-## 📄 License
+## 📄 Lisensi
 
 <div align="center">
 
-This project is licensed under the **GPL v3 License** - see the [LICENSE](LICENSE) file for details.
+**GPL v3 License**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -736,85 +502,57 @@ This project is licensed under the **GPL v3 License** - see the [LICENSE](LICENS
 
 ---
 
-## 🙏 Acknowledgments
-
-<div align="center">
-
-**Special thanks to our amazing team and contributors who made this project possible:**
-
-</div>
-
-<div align="center">
+## 🙏 Terima Kasih
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center">
 
-### 👑 Owens
+### 👑 Owensdev1
 **Project Owner**  
 *Lead Developer*
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/owensdev1)
-
 </td>
-<td align="center" width="25%">
+<td align="center">
 
 ### 🛠️ KyzRyzz
 **Technical Support**  
-*Community Management*
-
-[![Support](https://img.shields.io/badge/Support-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white)](#)
+*Community Lead*
 
 </td>
-<td align="center" width="25%">
+<td align="center">
 
 ### 🧪 Yousoo
-**Development Support**  
+**Development**  
 *Testing & QA*
 
-[![Testing](https://img.shields.io/badge/Testing-4ECDC4?style=for-the-badge&logo=checkmark&logoColor=white)](#)
-
 </td>
-<td align="center" width="25%">
+<td align="center">
 
 ### 💻 Valzy
-**Development**  
-*Base Source*
-
-[![Development](https://img.shields.io/badge/Development-45B7D1?style=for-the-badge&logo=code&logoColor=white)](#)
+**Base Source**  
+*Core Architecture*
 
 </td>
 </tr>
 </table>
 
-</div>
+---
 
-### 🔧 Technical Credits
-- Built with ❤️ using [libsignal-node](https://git.questbook.io/backend/service-coderunner/-/merge_requests/1)
-- Special thanks to the WhatsApp Web reverse engineering community
+## ⭐ Jangan Lupa Star!
+
+**Jika project ini membantu Anda, berikan ⭐ star!**
+
+[![GitHub stars](https://img.shields.io/github/stars/owensdev1/baileys?style=social&label=Stars)](https://github.com/owensdev1/baileys/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/owensdev1/baileys?style=social&label=Forks)](https://github.com/owensdev1/baileys/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/owensdev1/baileys?style=social&label=Watch)](https://github.com/owensdev1/baileys/watchers)
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repo if it helped you!
+**💻 Made with ❤️ and ☕ by the Community**
 
-[![GitHub stars](https://img.shields.io/github/stars/owensdev1/baileys?style=social)](https://github.com/owensdev1/baileys/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/owensdev1/baileys?style=social)](https://github.com/owensdev1/baileys/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/owensdev1/baileys?style=social)](https://github.com/owensdev1/baileys/watchers)
-
----
-
-### 📊 Project Stats
-
-![GitHub repo size](https://img.shields.io/github/repo-size/owensdev1/baileys?style=for-the-badge&color=orange)
-![GitHub language count](https://img.shields.io/github/languages/count/owensdev1/baileys?style=for-the-badge&color=purple)
-![GitHub top language](https://img.shields.io/github/languages/top/owensdev1/baileys?style=for-the-badge&color=red)
-
----
-
-**Made with 💻 and ☕ by the community**
-
-*© 2025 Baileys WhatsApp API - Building the future of WhatsApp automation*
+**© 2025 Baileys WhatsApp API - Building the Future of WhatsApp Automation**
 
 </div>
