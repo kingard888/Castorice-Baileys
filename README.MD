@@ -11,8 +11,6 @@
 
 **A powerful WebSockets-based TypeScript library for interacting with the WhatsApp Web API**
 
-[📖 Documentation](#-table-of-contents) • [🚀 Quick Start](#-quick-start) • [💬 Support](#-support) • [🤝 Contributing](#-contributing)
-
 </div>
 
 ---
