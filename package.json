@@ -1,7 +1,7 @@
 {
-    "name": "@owensdev1/baileys",
+    "name": "@kingard/baileys",
     "version": "6.7.19",
-    "description": "WhatsApp API Modification By OwensDev",
+    "description": "WhatsApp API Modification By KingArd",
     "keywords": [
         "whatsapp",
         "laurine-wabot",
@@ -12,12 +12,8 @@
         "botwa",
         "kyuurzy"
     ],
-    "homepage": "https://www.npmjs.com/package/@owensdev1/baileys",
-    "repository": {
-        "url": "https://www.npmjs.com/package/@owensdev1/baileys"
-    },
     "license": "MIT",
-    "author": "Rajeh Taher",
+    "author": "Verdyan Arda",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
