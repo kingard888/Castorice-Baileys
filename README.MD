@@ -8,14 +8,14 @@
 
 </div>
 
-## 📦 Installation
+### 📦 Installation
 
 ```bash
 npm install @kingard/baileys@github:kingard888/CastoriceBaileys
 ```
 
 
-## 🔌 Basic Usage
+### 🔌 Basic Usage
 
 ```javascript
 const { 
@@ -66,7 +66,7 @@ async function connectToWhatsApp() {
 connectToWhatsApp();
 ```
 
-## 💾 Save Session
+### 💾 Save Session
 
 ```javascript
 const { useMultiFileAuthState } = require("@kingard/baileys");
@@ -75,32 +75,26 @@ const { state, saveCreds } = await useMultiFileAuthState("auth_info");
 const sock = makeWASocket({ auth: state });
 
 sock.ev.on("creds.update", saveCreds);
+```
 
+### 📨 Send Message
 
----
-
-📨 Send Message
-
+```javascript
 await sock.sendMessage(jid, { 
   text: "Hello World 🌍" 
 });
+```
 
+### 👥 Group Example
 
----
-
-👥 Group Example
-
+```javascript
 const group = await sock.groupCreate("Castorice Group 👑", [
   "1234567890@s.whatsapp.net"
 ]);
 
 await sock.sendMessage(group.id, { text: "Welcome!" });
+```
 
-
----
-
-🐛 Bug Report
+### 🐛 Bug Report
 
 👉 https://github.com/kingard888/Castorice-Baileys/issues
-
----
