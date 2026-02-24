@@ -7,22 +7,18 @@
   
 
 </div>
----
 
-📦 Installation
+## 📦 Installation
 
-```npm install @kingard/baileys```
-
-atau
-
-```yarn add @kingard/baileys```
+```bash
+npm install @kingard/baileys@github:kingard888/CastoriceBaileys
+```
 
 
----
+## 🔌 Basic Usage
 
-🔌 Basic Usage
-
-```const { 
+```javascript
+const { 
   default: makeWASocket, 
   DisconnectReason, 
   useMultiFileAuthState 
@@ -70,10 +66,9 @@ async function connectToWhatsApp() {
 connectToWhatsApp();
 ```
 
----
+## 💾 Save Session
 
-💾 Save Session
-
+```javascript
 const { useMultiFileAuthState } = require("@kingard/baileys");
 
 const { state, saveCreds } = await useMultiFileAuthState("auth_info");
