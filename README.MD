@@ -1,6 +1,6 @@
 
 
-🚀 Castorice-Baileys
+#🚀 Castorice-Baileys
 
 <div align="center">
 
@@ -11,18 +11,18 @@
 
 📦 Installation
 
-npm install @kingard/baileys
+```npm install @kingard/baileys```
 
 atau
 
-yarn add @kingard/baileys
+```yarn add @kingard/baileys```
 
 
 ---
 
 🔌 Basic Usage
 
-const { 
+```const { 
   default: makeWASocket, 
   DisconnectReason, 
   useMultiFileAuthState 
@@ -68,7 +68,7 @@ async function connectToWhatsApp() {
 }
 
 connectToWhatsApp();
-
+```
 
 ---
 
